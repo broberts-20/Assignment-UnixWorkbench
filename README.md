@@ -1,5 +1,4 @@
 # Assignment-UnixWorkbench, Guessing Games Program
-## Author: broberts-20
-### File run at Tue Aug 25 14:04:12 2020
+### Make run at Tue Aug 25 14:08:43 2020
 
-### There are 48 lines in guessinggame.sh
+### There are 44 lines in guessinggame.sh

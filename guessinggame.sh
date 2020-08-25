@@ -1,10 +1,6 @@
 #!/usr/bin/env Bash
 
 # File: guessinggame.sh
-# Description: 
-#               This program asks the usesr to guess the number of files in the current directory. 
-#               The user is informed if their guess is too high or too low. The user is congratulated
-#               if their guess is correct, and the program quits.
 # Date 25/08/2020
 # Author: broberts-20
 
