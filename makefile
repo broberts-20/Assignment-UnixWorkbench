@@ -1,8 +1,7 @@
-README.md: guessinggame.sh
-	date="12345"
-	num=12
-	echo "this is a readme file" >> README.md
-	echo "# Title of project: Assignment-UnixWorkbench, Guessing Games" >> README.md
-	echo "### File run at $(date)" >> README.md
+todaydate := $(shell date +%c)
+num := $(shell wc -l < guessinggame.sh)
+README.md:
+	echo "# Assignment-UnixWorkbench, Guessing Games Program" >> README.md
+	echo "### File run at $(todaydate)" >> README.md
 	echo "" >> README.md
-	echo "There are $(num) number lines in guessinggame.sh" >> README.md
+	echo "### There are $(num) lines in guessinggame.sh" >> README.md
